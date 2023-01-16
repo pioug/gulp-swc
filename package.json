@@ -1,0 +1,25 @@
+{
+  "description": "Gulp plugin to use SWC",
+  "version": "1.0.0",
+  "name": "gulp-swc",
+  "license": "MIT",
+  "author": "Gilles Piou <gilles.piou@gmail.com> (https://www.github.com/pioug)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/e2e.js"
+  },
+  "dependencies": {
+    "@swc/core": "^1.3.26",
+    "plugin-error": "^2.0.0",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "gulp": "4.0.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "prettier": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
